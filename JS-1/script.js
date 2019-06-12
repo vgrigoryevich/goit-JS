@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 // let num = 105;
 
@@ -59,38 +59,38 @@
 
 //---------------cofeeshop-------------
 
-// const toGo = confirm('to go ?????')
+const toGo = confirm('to go ?????')
 
-// let milk = 7;
-// let check;
+let milk = 7;
+let check;
 
-// if (toGo || !toGo) {
-//     const drink = prompt('choose what you want')
-//     let chooseResult = '';
-//     switch (drink) {
-//         case 'cola':
-//             chooseResult = '15';
-//             break;
-//         case 'cofee':
-//             chooseResult = '30';
-//             break;
-//     }
+if (toGo || !toGo) {
+    const drink = prompt('choose what you want')
+    let chooseResult = '';
+    switch (drink) {
+        case 'cola':
+            chooseResult = '15';
+            break;
+        case 'cofee':
+            chooseResult = '30';
+            break;
+    }
 
-//     let choose;
-//     if (drink === 'cofee') {
-//         const chooseMilk = confirm('with milk??')
-//         if (chooseMilk) {
-//             check = `you choose ${drink} ${chooseResult + $milk}`)
-//         } else {
-//             check = `you choose ${drink} ${chooseResult}`)
-//         }
+    let choose;
+    if (drink === 'cofee') {
+        const chooseMilk = confirm('with milk??')
+        if (chooseMilk) {
+            check = `you choose ${drink} ${chooseResult + $milk}`
+        } else {
+            check = `you choose ${drink} ${chooseResult}`
+        }
 
-//     } else if (drink === 'cola') {
-//         const chooseIce = confirm('with ice??')
-//         if (chooseIce) {
-//             check = `you choose ${drink} with ice you need to pay ${chooseResult}`)
-//         } else {
-//             check = `you choose ${drink} with ice you need to pay ${chooseResult}`)
-//         }
-//     }
-// }
+    } else if (drink === 'cola') {
+        const chooseIce = confirm('with ice??')
+        if (chooseIce) {
+            check = `you choose ${drink} with ice you need to pay ${chooseResult}`
+        } else {
+            check = `you choose ${drink} with ice you need to pay ${chooseResult}`
+        }
+    }
+}
