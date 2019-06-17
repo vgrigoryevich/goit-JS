@@ -82,3 +82,83 @@
 
 //--------------------Цыклы-----------
 
+// let counter = 0;
+// let arr = [];
+
+// do{
+// const user = Number(prompt(counter))
+// counter += 1
+// arr.push(user)
+// } while(counter < 10)
+
+// console.log(arr)
+
+
+
+// let numbers;
+
+// while(true) {
+
+//     numbers = prompt('enter num')
+
+//     if(numbers === null) {
+//         break;
+//     }
+
+//     numbers = Number(numbers)
+
+//     if(numbers >= 1 && numbers <= 5){
+//         break;
+//     }
+// }
+// switch(numbers) {
+//     case 1:
+//         console.log('one')
+//         break;
+
+// }
+
+// console.log(numbers)
+
+
+
+//-------------------for-----------
+
+
+// const clients = ['Mango', 'Ajax', 'Poly'];
+
+// console.log(clients.length)
+
+// const arr = 'Тело цикла будет выполняться для значения каждого отдельного элемента'
+
+// const newArr = arr.split(' ')
+// console.log(newArr)
+
+// let i = 0;
+
+// for(let i = 0; i < newArr.length; i+= 1) {
+
+//     if(clients[i] === 'Tело') {
+//         console.log(newArr[i])
+//         console.log('we have this word')
+//         break
+//     } 
+// }
+
+
+// for(let key of newArr){
+//     if(key === 'Тело') {
+//         console.log('we have this word!!!!')
+//         break;
+//     }
+// }
+
+
+//--------------REVERSE PALINDROM----------
+
+const word = prompt('rotor');
+
+const reverseWord = word.split('').reverse() .join('');
+
+alert(word === reverseWord);
+
