@@ -156,9 +156,9 @@
 
 //--------------REVERSE PALINDROM----------
 
-const word = prompt('rotor');
+// const word = prompt('rotor');
 
-const reverseWord = word.split('').reverse() .join('');
+// const reverseWord = word.split('').reverse() .join('');
 
-alert(word === reverseWord);
+// alert(word === reverseWord);
 
