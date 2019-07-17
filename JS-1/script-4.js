@@ -42,34 +42,34 @@
 // console.log(Shop.arr);
 
 
-const SHOP = function (name) {
-    this.name = name;
-    this.counter = 0;
-    this.salary = 0;
-    this.arr = [];
+// const SHOP = function (name) {
+//     this.name = name;
+//     this.counter = 0;
+//     this.salary = 0;
+//     this.arr = [];
     
-    this.showName = function(){
-        console.log(this.name)
-    }
+//     this.showName = function(){
+//         console.log(this.name)
+//     }
 
-    this.sale = function(products){
-        this.counter +=1;
-        this.salary += 10;
-        console.log(`${this.name} продал ${this.counter} товаров и получил ${this.salary} лящей за продукт ${products}`);
-        this.arr.push(products)
-    }
-}
+//     this.sale = function(products){
+//         this.counter +=1;
+//         this.salary += 10;
+//         console.log(`${this.name} продал ${this.counter} товаров и получил ${this.salary} лящей за продукт ${products}`);
+//         this.arr.push(products)
+//     }
+// }
 
-const Zina = new SHOP('Zinaida ept')
+// const Zina = new SHOP('Zinaida ept')
 
-Zina.showName()
-Zina.sale('Kompot')
-Zina.sale('Kusok kartoshki')
-Zina.sale('Rodina')
+// Zina.showName()
+// Zina.sale('Kompot')
+// Zina.sale('Kusok kartoshki')
+// Zina.sale('Rodina')
 
-console.log(Zina)
-console.log(Zina.arr)
+// console.log(Zina)
+// console.log(Zina.arr)
 
-const Galia = new SHOP('Galina privet')
+// const Galia = new SHOP('Galina privet')
 
-Galia.showName()
+// Galia.showName()
