@@ -19,8 +19,8 @@ while (input !== null) {
 console.log(numbers);
 
 
-for (let k in numbers) {
-    total += numbers[k];
+for (let i in numbers) {
+    total += numbers[i];
 }
 
 console.log(`Общая сумма чисел равна ${total}`);
