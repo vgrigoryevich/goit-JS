@@ -3,16 +3,17 @@ const Priority = {
     NORMAL: 1,
     HIGH: 2,
 };
+
 /*
  * Принимает: ничего
  * Возвращает: все заметки, значение свойства notes
  */
-
 const notepad = {
     notes: [],
     getNotes() {
         return notepad.notes;
     },
+
     /*
      * Ищет заметку в массиве notes
      *
@@ -25,9 +26,8 @@ const notepad = {
             if (note.id === id)
                 return note;
         }
-
-
     },
+
     /*
      * Сохраняет заметку в массив notes
      *
@@ -77,7 +77,8 @@ const notepad = {
         }
         return newNote;
     },
- /*
+
+    /*
      * Обновляет приоритет заметки
      *
      * Принимает: идентификатор заметки и ее новый приоритет
@@ -93,7 +94,8 @@ const notepad = {
         }
         return newNote;
     },
- /*
+
+    /*
      * Фильтрует массив заметок по подстроке query.
      * Если значение query есть в заголовке или теле заметки - она подходит
      *
@@ -111,6 +113,7 @@ const notepad = {
         }
         return listOfNotes;
     },
+
     /*
      * Фильтрует массив заметок по значению приоритета
      * Если значение priority совпадает с приоритетом заметки - она подходит
@@ -126,6 +129,7 @@ const notepad = {
             }
         }
         return listOfNotes;
+
     },
 };
 
