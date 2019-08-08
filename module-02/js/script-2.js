@@ -1,5 +1,3 @@
-'use strict'
-
 const passwords = ['qwerty', '111qwe', '123123', 'r4nd0mp4zzw0rd'];
 
 let attemptsLeft = 3;
