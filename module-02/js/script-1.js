@@ -14,7 +14,7 @@ while (input !== null) {
     input = prompt('Введите ваше число');
     numbers.push(Number(input));
     num += 1;
-}
+};
 
 console.log(numbers);
 
